@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3139E15F2DF23D300024763E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3139E1402DF23D2F0024763E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3139E1472DF23D2F0024763E;
+			remoteInfo = JellyJellyTest;
+		};
+		3139E1692DF23D300024763E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3139E1402DF23D2F0024763E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3139E1472DF23D2F0024763E;
+			remoteInfo = JellyJellyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3139E1482DF23D2F0024763E /* JellyJellyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyJellyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3139E15E2DF23D300024763E /* JellyJellyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyJellyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3139E1682DF23D300024763E /* JellyJellyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyJellyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3139E1702DF23D300024763E /* Exceptions for "JellyJellyTest" folder in "JellyJellyTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3139E1472DF23D2F0024763E /* JellyJellyTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3139E14A2DF23D2F0024763E /* JellyJellyTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3139E1702DF23D300024763E /* Exceptions for "JellyJellyTest" folder in "JellyJellyTest" target */,
+			);
+			path = JellyJellyTest;
+			sourceTree = "<group>";
+		};
+		3139E1612DF23D300024763E /* JellyJellyTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JellyJellyTestTests;
+			sourceTree = "<group>";
+		};
+		3139E16B2DF23D300024763E /* JellyJellyTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JellyJellyTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3139E1452DF23D2F0024763E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139E15B2DF23D300024763E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139E1652DF23D300024763E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3139E13F2DF23D2F0024763E = {
+			isa = PBXGroup;
+			children = (
+				3139E14A2DF23D2F0024763E /* JellyJellyTest */,
+				3139E1612DF23D300024763E /* JellyJellyTestTests */,
+				3139E16B2DF23D300024763E /* JellyJellyTestUITests */,
+				3139E1492DF23D2F0024763E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3139E1492DF23D2F0024763E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3139E1482DF23D2F0024763E /* JellyJellyTest.app */,
+				3139E15E2DF23D300024763E /* JellyJellyTestTests.xctest */,
+				3139E1682DF23D300024763E /* JellyJellyTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3139E1472DF23D2F0024763E /* JellyJellyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3139E1712DF23D300024763E /* Build configuration list for PBXNativeTarget "JellyJellyTest" */;
+			buildPhases = (
+				3139E1442DF23D2F0024763E /* Sources */,
+				3139E1452DF23D2F0024763E /* Frameworks */,
+				3139E1462DF23D2F0024763E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3139E14A2DF23D2F0024763E /* JellyJellyTest */,
+			);
+			name = JellyJellyTest;
+			packageProductDependencies = (
+			);
+			productName = JellyJellyTest;
+			productReference = 3139E1482DF23D2F0024763E /* JellyJellyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3139E15D2DF23D300024763E /* JellyJellyTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3139E1762DF23D300024763E /* Build configuration list for PBXNativeTarget "JellyJellyTestTests" */;
+			buildPhases = (
+				3139E15A2DF23D300024763E /* Sources */,
+				3139E15B2DF23D300024763E /* Frameworks */,
+				3139E15C2DF23D300024763E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3139E1602DF23D300024763E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3139E1612DF23D300024763E /* JellyJellyTestTests */,
+			);
+			name = JellyJellyTestTests;
+			packageProductDependencies = (
+			);
+			productName = JellyJellyTestTests;
+			productReference = 3139E15E2DF23D300024763E /* JellyJellyTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3139E1672DF23D300024763E /* JellyJellyTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3139E1792DF23D300024763E /* Build configuration list for PBXNativeTarget "JellyJellyTestUITests" */;
+			buildPhases = (
+				3139E1642DF23D300024763E /* Sources */,
+				3139E1652DF23D300024763E /* Frameworks */,
+				3139E1662DF23D300024763E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3139E16A2DF23D300024763E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3139E16B2DF23D300024763E /* JellyJellyTestUITests */,
+			);
+			name = JellyJellyTestUITests;
+			packageProductDependencies = (
+			);
+			productName = JellyJellyTestUITests;
+			productReference = 3139E1682DF23D300024763E /* JellyJellyTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3139E1402DF23D2F0024763E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3139E1472DF23D2F0024763E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3139E15D2DF23D300024763E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3139E1472DF23D2F0024763E;
+					};
+					3139E1672DF23D300024763E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3139E1472DF23D2F0024763E;
+					};
+				};
+			};
+			buildConfigurationList = 3139E1432DF23D2F0024763E /* Build configuration list for PBXProject "JellyJellyTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3139E13F2DF23D2F0024763E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3139E1492DF23D2F0024763E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3139E1472DF23D2F0024763E /* JellyJellyTest */,
+				3139E15D2DF23D300024763E /* JellyJellyTestTests */,
+				3139E1672DF23D300024763E /* JellyJellyTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3139E1462DF23D2F0024763E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139E15C2DF23D300024763E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139E1662DF23D300024763E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3139E1442DF23D2F0024763E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139E15A2DF23D300024763E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139E1642DF23D300024763E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3139E1602DF23D300024763E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3139E1472DF23D2F0024763E /* JellyJellyTest */;
+			targetProxy = 3139E15F2DF23D300024763E /* PBXContainerItemProxy */;
+		};
+		3139E16A2DF23D300024763E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3139E1472DF23D2F0024763E /* JellyJellyTest */;
+			targetProxy = 3139E1692DF23D300024763E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3139E1722DF23D300024763E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 47LU8G6R4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JellyJellyTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera for dual POV video recording.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the camera to record dual-camera videos.\n";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app requires access to the photo library in order to save your recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app lists and plays your recorded videos from the photo library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyJellyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "XC Wildcard";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3139E1732DF23D300024763E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 47LU8G6R4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JellyJellyTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera for dual POV video recording.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the camera to record dual-camera videos.\n";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app requires access to the photo library in order to save your recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app lists and plays your recorded videos from the photo library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyJellyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "XC Wildcard";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3139E1742DF23D300024763E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3139E1752DF23D300024763E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3139E1772DF23D300024763E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GolfAppDemo.JellyJellyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyJellyTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JellyJellyTest";
+			};
+			name = Debug;
+		};
+		3139E1782DF23D300024763E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GolfAppDemo.JellyJellyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyJellyTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JellyJellyTest";
+			};
+			name = Release;
+		};
+		3139E17A2DF23D300024763E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GolfAppDemo.JellyJellyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JellyJellyTest;
+			};
+			name = Debug;
+		};
+		3139E17B2DF23D300024763E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GolfAppDemo.JellyJellyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JellyJellyTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3139E1432DF23D2F0024763E /* Build configuration list for PBXProject "JellyJellyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139E1742DF23D300024763E /* Debug */,
+				3139E1752DF23D300024763E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3139E1712DF23D300024763E /* Build configuration list for PBXNativeTarget "JellyJellyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139E1722DF23D300024763E /* Debug */,
+				3139E1732DF23D300024763E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3139E1762DF23D300024763E /* Build configuration list for PBXNativeTarget "JellyJellyTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139E1772DF23D300024763E /* Debug */,
+				3139E1782DF23D300024763E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3139E1792DF23D300024763E /* Build configuration list for PBXNativeTarget "JellyJellyTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139E17A2DF23D300024763E /* Debug */,
+				3139E17B2DF23D300024763E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3139E1402DF23D2F0024763E /* Project object */;
+}
